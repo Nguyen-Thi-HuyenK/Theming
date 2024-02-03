@@ -56,6 +56,7 @@ fun MyApp() {
         )
         Button(
             onClick = {/*TODO*/},
+            shape = MaterialTheme.shapes.medium,
             modifier = appModifier
         ) {
             Text(text = stringResource(R.string.submit))
